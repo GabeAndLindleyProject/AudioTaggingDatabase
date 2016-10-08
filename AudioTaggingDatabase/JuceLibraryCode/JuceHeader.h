@@ -10,8 +10,8 @@
 
 */
 
-#ifndef __APPHEADERFILE_UGIHWB__
-#define __APPHEADERFILE_UGIHWB__
+#ifndef __APPHEADERFILE_E6V3WS__
+#define __APPHEADERFILE_E6V3WS__
 
 #include "AppConfig.h"
 
@@ -45,4 +45,4 @@ namespace ProjectInfo
 }
 #endif
 
-#endif   // __APPHEADERFILE_UGIHWB__
+#endif   // __APPHEADERFILE_E6V3WS__

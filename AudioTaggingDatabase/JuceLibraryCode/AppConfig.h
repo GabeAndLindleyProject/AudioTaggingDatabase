@@ -11,8 +11,8 @@
 
 */
 
-#ifndef __JUCE_APPCONFIG_UGIHWB__
-#define __JUCE_APPCONFIG_UGIHWB__
+#ifndef __JUCE_APPCONFIG_E6V3WS__
+#define __JUCE_APPCONFIG_E6V3WS__
 
 //==============================================================================
 // [BEGIN_USER_CODE_SECTION]
@@ -41,7 +41,7 @@
  #ifdef JucePlugin_Build_Standalone
   #define  JUCE_STANDALONE_APPLICATION JucePlugin_Build_Standalone
  #else
-  #define  JUCE_STANDALONE_APPLICATION 0
+  #define  JUCE_STANDALONE_APPLICATION 1
  #endif
 #endif
 
@@ -220,4 +220,4 @@
 #endif
 
 
-#endif  // __JUCE_APPCONFIG_UGIHWB__
+#endif  // __JUCE_APPCONFIG_E6V3WS__
