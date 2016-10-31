@@ -5,6 +5,12 @@
               includeBinaryInAppConfig="1" jucerVersion="4.2.4">
   <MAINGROUP id="rPfNG9" name="AudioTaggingDatabase">
     <GROUP id="{9E644E9D-726D-7E45-187B-683B39AFFE81}" name="Source">
+      <GROUP id="{3BA15C97-859A-CCBA-C2B0-385DC89049AA}" name="GUIComponents">
+        <FILE id="ItNo9V" name="CustomDragAndDrop.h" compile="0" resource="0"
+              file="Source/CustomDragAndDrop.h"/>
+        <FILE id="hM64jp" name="CustomMenuBar.h" compile="0" resource="0" file="Source/CustomMenuBar.h"/>
+        <FILE id="PQHfdl" name="CustomWindow.h" compile="0" resource="0" file="Source/CustomWindow.h"/>
+      </GROUP>
       <FILE id="RdLWWM" name="MainComponent.cpp" compile="1" resource="0"
             file="Source/MainComponent.cpp"/>
       <FILE id="yidLX3" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>

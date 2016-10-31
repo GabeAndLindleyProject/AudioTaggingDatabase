@@ -10,7 +10,7 @@
 #define MAINCOMPONENT_H_INCLUDED
 
 #include "../JuceLibraryCode/JuceHeader.h"
-
+#include "CustomWindow.h"
 
 //==============================================================================
 /*
@@ -24,10 +24,17 @@ public:
     MainContentComponent();
     ~MainContentComponent();
 
+    static MainContentComponent* getMainContentComponent();
+    
+    static ApplicationCommandManager& getApplicationCommandManager();
+    
     void paint (Graphics&) override;
     void resized() override;
 
 private:
+    
+    CustomWindow window;
+    CustomMenuBar menu;
     //==============================================================================
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainContentComponent)
 };

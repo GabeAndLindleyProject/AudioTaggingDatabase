@@ -12,7 +12,9 @@
 //==============================================================================
 MainContentComponent::MainContentComponent()
 {
-    setSize (600, 400);
+    addAndMakeVisible (menu);
+    addAndMakeVisible (window);
+    setSize (800, 600);
 }
 
 MainContentComponent::~MainContentComponent()
@@ -21,16 +23,11 @@ MainContentComponent::~MainContentComponent()
 
 void MainContentComponent::paint (Graphics& g)
 {
-    g.fillAll (Colour (0xff001F36));
-
-    g.setFont (Font (16.0f));
-    g.setColour (Colours::white);
-    g.drawText ("Hello World!", getLocalBounds(), Justification::centred, true);
+    
 }
 
 void MainContentComponent::resized()
 {
-    // This is called when the MainContentComponent is resized.
-    // If you add any child components, this is where you should
-    // update their positions.
+    menu.setBounds( getLocalBounds() );
+    window.setBounds ( getLocalBounds() );
 }
